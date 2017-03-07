@@ -8,8 +8,9 @@
   <input type="text" name="textbox1" id="textbox1" /><button onclick="go()">Go!</button>
     <script type="text/javascript">
       function go() {
-      var textbox = document.getElementById('textbox1');
-        document.write(parseFloat(textbox)) 
+var first = document.getElementById("textbox1").value;
+        var last = parseFloat(first)
+        document.write(last) 
       }
   </script>
   </body>
