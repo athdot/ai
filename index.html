@@ -5,6 +5,12 @@
   </head>
 <body>
 <script src="https://athdot.github.io/ai/greet.js"></script>
-  <input type="text" name="textbox1" id="textbox1" />
+  <input type="text" name="textbox1" id="textbox1" /><button onclick="go()">Go!</button>
+    <script>
+      function go() {
+      var text = document.getElementById('textbox1');
+        document.write(text) 
+      }
+  </script>
   </body>
 </html>
