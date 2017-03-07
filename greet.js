@@ -39,5 +39,5 @@ var defWassup = "greet"
 
 //End Deffinitions
 }else{
- window.open("https://athdot.github.io/ai/copyright.html")
+ window.location.href = ("https://athdot.github.io/ai/copyright.html")
 }
