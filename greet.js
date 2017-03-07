@@ -1,6 +1,24 @@
-        var ifrm = document.createElement("iframe");
-        ifrm.setAttribute("src", "https://athdot.github.io/test/window.html");
-        var scwid = (screen.width)*(78.8/80)
-        ifrm.style.width = (scwid + "px");
-        ifrm.style.height = "100px";
-        document.body.appendChild(ifrm);
+//Subjects
+//Greets
+var greet1 = "Hello"
+var greet2 = "Hi"
+var greet3 = "'Sup!"
+var randgreetselector = Math.floor((Math.random() * 3) + 1);
+if(randgreetselector == 1){
+ var greet = greet 1       
+}
+if(randgreetselector == 2){
+ var greet = greet 1       
+}
+if(randgreetselector == 3){
+ var greet = greet 1       
+}
+//End Greets
+
+//End subjects
+//Word Deffinitions
+var defHi = "greet"
+var defHello = "greet"
+var defWassup = "greet"
+
+//End Deffinitions
